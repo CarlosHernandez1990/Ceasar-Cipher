@@ -7,8 +7,11 @@ choice = input('If you would like to encode a message type "encode". If you woul
 message = input(f"Type in your message that you would like to {choice}:\n")
 
 shift = int(input("Type in a number for the {choice}ing of your message"))
-
-def encode()
+encrypted = ""
+def encode():
+  for letter in message:
+    letter_bank[index(letter) + shift]
+    
 
 if choice == "encode":
   
